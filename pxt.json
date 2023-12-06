@@ -1,7 +1,7 @@
 {
-    "name": "microbiti2cesp32v4",
-    "version": "0.4",
-    "description": "這是micro:bit用i2c控制esp32的積木",
+    "name": "iocontrolv1",
+    "version": "0.1",
+    "description": "這是修改makecode的積木",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/microbiti2cesp32v4-strings.json"
+        "_locales/zh/iocontrolv1-strings.json"
     ],
     "public": true
 }
