@@ -1,6 +1,6 @@
-# Microbiti2cESP32v4
+# IOCONTROL
 
-Micro:Bit用i2c控制ESP32積木,目前測試用在凱斯家控板上
+Micro:Bit控制引腳積木
 
 ## License
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-microbiti2cesp32v3=github:crouse12/microbiti2cesp32v4
+microbiti2cesp32v3=github:crousekimo/pxt-iocontrol-1
 ```
