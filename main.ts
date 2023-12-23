@@ -2,15 +2,15 @@
 namespace iocontrolv1 {
 
     //% blockId=analogRead block="analogRead Pin %pin| value"
-    //% weight=50
-    export function analog(pin: number):number {
+    //% weight=47
+    export function analogRead(pin: number):number {
 	let a = pins.analogReadPin(pin+100)
 	return a
     }
 
-    //% blockId=analogRead block="digitalRead Pin %pin| value"
-    //% weight=50
-    export function analogRead(pin: number):number {
+    //% blockId=digitalRead block="digitalRead Pin %pin| value"
+    //% weight=49
+    export function digitalRead(pin: number):number {
 	let a=pins.digitalReadPin(pin+100)
 	return a
     }
@@ -22,9 +22,9 @@ namespace iocontrolv1 {
     }
 
     //% blockId=analogWrite block="analogWrite Pin %pin| value %value"
-    //% weight=50
+    //% weight=48
     export function analogWrite(pin: number,value: number):void {
-      pins.digitalWritePin(pin+100, value)
+      pins.analogWritePin(pin+100, value)
     }
 
 }
